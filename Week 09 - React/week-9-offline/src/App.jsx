@@ -4,6 +4,7 @@ import ToggleMessage from "./07-Conditional Rendering/ToggleMessage";
 import NotificationCount from "./05-useEffect/NotificationCount";
 import Posts from "./03-useState/Posts";
 import Timer from "./05-useEffect/Timer";
+import LinkedinLikeTopbar from "./05-useEffect/LinkedinLikeTopbar";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         <NotificationCount />
       </div> */}
 
-      <Timer />
+      {/* <Timer /> */}
+
+      <LinkedinLikeTopbar />
 
 
     </div>
